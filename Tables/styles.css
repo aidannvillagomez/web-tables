@@ -46,3 +46,12 @@ table col#hourCols {
 table thead {
    background-color: rgb(143, 128, 255);
 }
+
+.columns {
+   column-count: 3;
+   column-gap: 150px;
+   column-rule: 5px solid rgb(0, 0, 0);
+}
+.columns h2 {
+   column-span: all;
+}
